@@ -131,7 +131,7 @@ function readyPlayerOne() {
     };
 
     $('form#quizform').append(submit); //adds the submit button at the bottom, only do it once
-    $('.howtoplay').append(howtoplay); //adds button to go back and view instructions
+    $('form#quizform').append(howtoplay); //adds button to go back and view instructions
 
 };
 
