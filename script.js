@@ -2,8 +2,7 @@
 //Function and obj definitions
 //////////////////////////////////
 
-var quizArr = [
-    {
+var quizArr = [{
         qnum: 1,
         qtext: "What 80's dungeon crawler, exploration game was this music from?",
         qchoices: ['Legend of Zelda', 'Pac Man', 'Super Mario', 'Tron', 'Pole Position', 'Donkey Kong', 'Punch Out'],
@@ -83,6 +82,7 @@ function readyPlayerOne() {
     $('.quiz_header').show(); // show the quiz header, question number, music, etc
     $('.quizrow').show(); // shows the quiz rows, answers, text, etc
     $('.submitrow').show(); // show the submit button
+    $('.howtoplay').show(); // button for going back to instructions
     $('form#quizform').show(); //show the quiz form
 
     //question content at top for whichever question we are on
@@ -111,7 +111,7 @@ function readyPlayerOne() {
             '" id="' +
             answer +
             '"></input>' +
-            '</div><label for="'+
+            '</div><label for="' +
             answer +
             '"><div class="answer">' +
             answer +
@@ -121,11 +121,17 @@ function readyPlayerOne() {
             '<input class="submit" type="submit" value="-> Am I right?">' +
             '</div>';
 
+        var howtoplay = '<div class="howtoplay">' +
+            '<input class="submit" type="button" value=" How to play! <-">' +
+            '</div>';
+
+        $('#jquery a').click(window.testClickListener);
         $('form#quizform').append(text1); //adds the answers and radio buttons
 
     };
 
     $('form#quizform').append(submit); //adds the submit button at the bottom, only do it once
+    $('.howtoplay').append(howtoplay); //adds button to go back and view instructions
 
 };
 
