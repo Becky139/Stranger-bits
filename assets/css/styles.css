@@ -124,6 +124,7 @@ li {
 .questiontext,
 .instructions {
     color: white;
+    text-align: center;
 }
 
 .radio {
@@ -203,8 +204,10 @@ li {
     color: white;
 }
 
-.submitrow {
+.submitrow,
+.howtoplay {
     text-align: center;
+    margin-top: 3rem;
 }
 
 #guess {
