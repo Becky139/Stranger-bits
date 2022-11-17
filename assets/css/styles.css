@@ -124,6 +124,7 @@ li {
 .questiontext,
 .instructions {
     color: white;
+    text-align: center;
 }
 
 .radio {
