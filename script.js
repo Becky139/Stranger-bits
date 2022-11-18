@@ -8,7 +8,7 @@ var quizArr = [{
         qchoices: ['Legend of Zelda', 'Pac Man', 'Super Mario', 'Tron', 'Pole Position', 'Donkey Kong', 'Punch Out'],
         qmusic: "audio/zelda.mp3",
         qfacts: "The Legend of Zelda is a high-fantasy action-adventure video game series created by Japanese game designers Shigeru Miyamoto and Takashi Tezuka.",
-        qimage: "images/zelda.png",
+        qimage: "assets/images/zelda.png",
         qcorrect: "Legend of Zelda"
     },
     {
@@ -17,7 +17,7 @@ var quizArr = [{
         qchoices: ['Pac Man', 'Legend of Zelda', 'Punch Out', 'Super Mario', 'Donkey Kong', 'Tron', 'Pole Position'],
         qmusic: "audio/poleposition.mp3",
         qfacts: "Pole Position is regarded as one of the most influential video games of all time and arguably the most important racing game ever made.",
-        qimage: "images/poleposition.jpg",
+        qimage: "assets/images/poleposition.jpg",
         qcorrect: "Pole Position"
     },
     {
@@ -26,7 +26,7 @@ var quizArr = [{
         qchoices: ['Tron', 'Legend of Zelda', 'Pole Position', 'Super Mario', 'Pac Man', 'Donkey Kong', 'Punch Out'],
         qmusic: "audio/pacman.mp3",
         qfacts: " Pac-Man is often credited with being a landmark in video game history, and is among the most famous arcade games of all time.",
-        qimage: "images/pacman.png",
+        qimage: "assets/images/pacman.png",
         qcorrect: "Pac Man"
     },
     {
@@ -34,7 +34,7 @@ var quizArr = [{
         qtext: "One of the most classic themes from 80's video games.  Name it!",
         qchoices: ['Legend of Zelda', 'Pac Man', 'Pole Position', 'Tron', 'Super Mario', 'Donkey Kong', 'Punch Out'],
         qfacts: "The Mario franchise is the best-selling video game franchise of all time. Over 210 million units of the overall Mario series of games have been sold",
-        qimage: "images/supermario.jpg",
+        qimage: "assets/images/supermario.jpg",
         qmusic: "audio/supermario.mp3",
         qcorrect: "Super Mario"
     },
@@ -43,7 +43,7 @@ var quizArr = [{
         qtext: "Name the game associated with this music, it's a classic and even had a movie!",
         qchoices: ['Pac Man', 'Legend of Zelda', 'Pole Position', 'Super Mario', 'Tron', 'Donkey Kong', 'Punch Out'],
         qfacts: "Most of the 12 difficulty levels are named after programming languages. From lowest to highest: RPG, COBOL, BASIC, FORTRAN, SNOBOL, PL1, PASCAL, ALGOL, ASSEMBLY, OS, JCL, USER",
-        qimage: "images/tron.png",
+        qimage: "assets/images/tron.png",
         qmusic: "audio/tron.mp3",
         qcorrect: "Tron"
     },
@@ -52,7 +52,7 @@ var quizArr = [{
         qtext: "Save the princess, hurry!  What music is this from?",
         qchoices: ['Pac Man', 'Legend of Zelda', 'Tron', 'Super Mario', 'Pole Position', 'Donkey Kong', 'Punch Out'],
         qfacts: "A hallmark of the Donkey Kong series are barrels, which the Kongs use as weapons, vehicles, furniture, and lodging. The Donkey Kong character is highly recognizable and very popular; the franchise has sold over 40 million units worldwide.",
-        qimage: "images/donkeykong.png",
+        qimage: "assets/images/donkeykong.png",
         qmusic: "audio/donkeykong.mp3",
         qcorrect: "Donkey Kong"
     },
@@ -61,7 +61,7 @@ var quizArr = [{
         qtext: "Don't get your ear bit off, what's this music from?",
         qchoices: ['Pole Position', 'Legend of Zelda', 'Pac Man', 'Super Mario', 'Tron', 'Donkey Kong', 'Punch Out'],
         qfacts: "Punch Out is a boxing arcade game by Nintendo, originally released late 1983.",
-        qimage: "images/punchout.png",
+        qimage: "assets/images/punchout.png",
         qmusic: "audio/punchout.mp3",
         qcorrect: "Punch Out"
     }
@@ -122,7 +122,7 @@ function readyPlayerOne() {
             '</div>';
 
         var howtoplay = '<div class="howtoplay">' +
-            '<input class="submit" type="button" value=" How to play! <-">' +
+            '<input class="submit" type="submit" value=" How to play! <-">' +
             '</div>';
 
         $('#jquery a').click(window.testClickListener);
@@ -131,7 +131,7 @@ function readyPlayerOne() {
     };
 
     $('form#quizform').append(submit); //adds the submit button at the bottom, only do it once
-    $('form#quizform').append(howtoplay); //adds button to go back and view instructions
+    $('form#quizform').append(howtoplay); //adds button to go back and view instructions, only do it once
 
 };
 
