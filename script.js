@@ -121,9 +121,11 @@ function readyPlayerOne() {
             '<input class="submit" type="submit" value="-> Am I right?">' +
             '</div>';
 
-        var howtoplay = '<div class="howtoplay">' +
-            '<input class="submit" type="submit" value=" How to play! <-">' +
-            '</div>';
+        var howtoplay = '<a href="index.html">' +
+            '<div class="howtoplay">' +
+            '<input class="submit" type="button" value=" How to play! <-">' +
+            '</div>' +
+            '</a>';
 
         $('#jquery a').click(window.testClickListener);
         $('form#quizform').append(text1); //adds the answers and radio buttons
