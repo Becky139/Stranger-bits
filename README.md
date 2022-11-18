@@ -2,15 +2,16 @@
 
 ![Responsivenes](assets/images/resoponsive.png)
 
-Always wanted to test your hand at 8-bit games and their music? Well now is your chance! from zelda to super mario put you knowledge to the test and seehow meny games you can identify. Enjoy!
+Always wanted to test your hand at 8-bit games and their music? Well now is your chance!. This game tests your 80's 8-bit game knowledge. Remember those great music tracks you loved from your early games, well now you can put your skills to the test!
 
-![Live Deploy Link]()
 
 ![Wireframes]()
 
 ## How to play
 
-
+-Head to each question, then click to play the music track.
+-Choose which 80's 8-bit game you think the music is from.
+-Make your choices and compare your hi-scores with others!
 
 ## Setup
 
