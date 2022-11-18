@@ -1,13 +1,16 @@
-# 🎸 **Musical Invaders!** 👽 
-## *The world of music is under attack!!*
+# 🎸 **Cassette Crusadars** 👽 
 
-![image info](./screenshot.png)
+![Responsivenes](assets/images/resoponsive.png)
+
+Always wanted to test your hand at 8-bit games and their music? Well now is your chance! from zelda to super mario put you knowledge to the test and seehow meny games you can identify. Enjoy!
+
+![Live Deploy Link]()
+
+![Wireframes]()
 
 ## How to play
 
-* Arrow keys - move
-* Space bar - shoot
-* Destroy all aliens to progress
+
 
 ## Setup
 
