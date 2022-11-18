@@ -52,8 +52,8 @@ var quizArr = [{
         qtext: "Save the princess, hurry!  What music is this from?",
         qchoices: ['Pac Man', 'Legend of Zelda', 'Tron', 'Super Mario', 'Pole Position', 'Donkey Kong', 'Punch Out'],
         qfacts: "A hallmark of the Donkey Kong series are barrels, which the Kongs use as weapons, vehicles, furniture, and lodging. The Donkey Kong character is highly recognizable and very popular; the franchise has sold over 40 million units worldwide.",
-        qimage: "assets/images/donkeykong.png",
-        qmusic: "audio/donkeykong.mp3",
+        qimage: "assets/images/donkeykong.jpg",
+        qmusic: "audio/donkeykong.mp3", // add audio, dont know where you found the other ones.
         qcorrect: "Donkey Kong"
     },
     {
