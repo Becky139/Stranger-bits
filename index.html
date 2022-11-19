@@ -1,105 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <title>Hack Hero</title>
+  <head>
+    <title>Hack Hero
+    </title>
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="assets/css/styles.css">
-</head>
-
-<body>
-
+  </head>
+  <body>
     <header>
-        <!--topnav-->
-        <div class="nav">
-            <div class="left_score">
-                <p class="right"># Right: 0</p>
-            </div>
-
-            <div class="middle_score">
-                <a class="new" href="#">new game</a>
-                <h1>YOUR SCORE</h1>
-            </div>
-
-            <div class="right_score">
-                <p class="wrong"># Wrong: 0</p>
-            </div>
+      <!--topnav-->
+      <div class="nav">
+        <div class="left_score">
+          <p class="right"># Right: 0
+          </p>
         </div>
+        <div class="middle_score">
+          <a class="new" href="#">new game
+          </a>
+          <h1>YOUR SCORE
+          </h1>
+        </div>
+        <div class="right_score">
+          <p class="wrong"># Wrong: 0
+          </p>
+        </div>
+      </div>
     </header>
-
-
     <div class="container">
-
-        <!--show on new game only, clicking lets play makes it go away-->
-        <div class="instructions">
-            <img class="invaders" src="assets/images/invaders.png" alt="space invaders">
-
-            <h3 class="top">80's 8-bit Game Quiz</h3>
-            <h3 class="top">How do I play?</h3>
-            <div>
-                <p class="intro">This game tests your 80's 8-bit game knowledge. Remember those great music tracks you
-                    loved from your early games, well now you can put your skills to the test!</p>
-                <ul>
-                    <li>Head to each question, then click to play the music track.</li>
-                    <li>Choose which 80's 8-bit game you think the music is from.</li>
-                    <li>Make your choices and compare your hi-scores with others!</li>
-                </ul>
-                <p>Good luck gamer!</p>
-                <a class="play" href="#">
-                    Let's Play!
-                </a>
-            </div>
+      <!--show on new game only, clicking lets play makes it go away-->
+      <div class="instructions">
+        <img class="invaders" src="assets/images/invaders.png" alt="space invaders">
+        <h3 class="top">80's 8-bit Game Quiz
+        </h3>
+        <h3 class="top">How do I play?
+        </h3>
+        <div>
+          <p class="intro">This game tests your 80's 8-bit game knowledge. Remember those great music tracks you
+            loved from your early games, well now you can put your skills to the test!
+          </p>
+          <ul>
+            <li>Head to each question, then click to play the music track.
+            </li>
+            <li>Choose which 80's 8-bit game you think the music is from.
+            </li>
+            <li>Make your choices and compare your hi-scores with others!
+            </li>
+          </ul>
+          <p>Good luck gamer!
+          </p>
+          <a class="play" href="#">
+            Let's Play!
+          </a>
         </div>
-
-        <!--Got it right!-->
-        <div class="correct">
-            <h2 class="feedback">You're right!</h2>
-            <ul class="gameinfo"></ul>
-            <p><a class="close_correct" href="#">Next Question</a></p>
+      </div>
+      <!--Got it right!-->
+      <div class="correct">
+        <h2 class="feedback">You're right!
+        </h2>
+        <ul class="gameinfo">
+        </ul>
+        <p>
+          <a class="close_correct" href="#">Next Question
+          </a>
+        </p>
+      </div>
+      <!--Got it wrong!-->
+      <div class="incorrect">
+        <h2 class="feedback">You're wrong!
+        </h2>
+        <p class="correctanswerwas">The correct answer was
+        </p>
+        <a class="close_incorrect" href="#">Next Question
+        </a>
+      </div>
+      <!--Hiscore-->
+      <div class="hiscore">
+        <h1>GAME OVER
+        </h1>
+        <div>
+          <p class="yourscore">Your Score: 
+          </p>
+          <P>TOP PLAYERS:
+          </P>
+          <p class="top">BOB: 7
+          </p>
+          <p class="top">JOE: 7
+          </p>
+          <p class="top">LOU: 6
+          </p>
+          <p class="top">PAM: 5
+          </p>
+          <img class="myimg" src="assets/images/victory.gif"
+               alt="supermario jumping the pole and going in to a castle GIF">
+          <p>
+            <a class="new" href="index.html">Play Again
+            </a>
+          </p>
         </div>
-
-        <!--Got it wrong!-->
-        <div class="incorrect">
-            <h2 class="feedback">You're wrong!</h2>
-            <p class="correctanswerwas">The correct answer was</p>
-            <a class="close_incorrect" href="#">Next Question</a>
-        </div>
-
-        <!--Hiscore-->
-        <div class="hiscore">
-            <h1>GAME OVER</h1>
-            <div>
-                <p class="yourscore">Your Score: </p>
-
-                <P>TOP PLAYERS:</P>
-                <p class="top">BOB: 7</p>
-                <p class="top">JOE: 7</p>
-                <p class="top">LOU: 6</p>
-                <p class="top">PAM: 5</p>
-
-                <img class="myimg" src="assets/images/victory.gif"
-                    alt="supermario jumping the pole and going in to a castle GIF">
-
-                <p><a class="new" href="index.html">Play Again</a></p>
-            </div>
-        </div>
-
-
-        <div class="quiz_header">
-            <h2 class="questionnum">Question # </h2>
-            <p class="questiontext">Which game does this music go with?</p>
-            <audio class="audio" src="#"></audio>
-        </div>
-
-        <form id="quizform">
-
-        </form>
+      </div>
+      <div class="quiz_header">
+        <h2 class="questionnum">Question # 
+        </h2>
+        <p class="questiontext">Which game does this music go with?
+        </p>
+        <audio class="audio" src="#">
+        </audio>
+      </div>
+      <form id="quizform">
+      </form>
     </div>
-
     <!-- JavaScript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js "></script>
-    <script src="script.js "></script>
-</body>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js ">
+    </script>
+    <script src="script.js ">
+    </script>
+  </body>
 </html>
