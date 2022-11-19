@@ -36,7 +36,7 @@ Wireframes created using Balsamiq Wireframes
 
 * [Be sure to credit any assets that are not yours](https://www.example.com)
 * [Rebecca Marriott Linkedin](https://www.linkedin.com/in/rebecca-marriott-492571148/)
-* [Member 2 Linkedin](https://www.linkedin.com)
+* [Niklas Färeborg Linkedin](https://www.linkedin.com/in/niklas-f%C3%A4reborg-1bb353211/)
 * [Member 3 Linkedin](https://www.linkedin.com)
 * [Member 4 Linkedin](https://www.linkedin.com)
 * [etc. etc.](https://www.example.com)
