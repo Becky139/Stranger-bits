@@ -14,10 +14,12 @@ body {
 h1,
 h2 {
     color: white;
+    font-size: 1.5em;
 }
 
 p {
     line-height: 1.5;
+    font-size: 1em;
 }
 
 ul {
@@ -85,7 +87,8 @@ li {
 
 .new {
     color: rgb(244, 241, 240);
-    font-size: 18px;
+    font-size: 1em;
+    text-transform: capitalize;
 }
 
 .top {
@@ -97,7 +100,7 @@ li {
 }
 
 .submit {
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'Press Start 2P', cursive;
     color: red;
     background: none;
@@ -137,8 +140,7 @@ li {
 
 .container {
     margin: auto;
-    width: 90%;
-    height: 800px;
+    padding: 0px;
 }
 
 .play {
@@ -153,7 +155,7 @@ li {
 .quizrow {
     margin: auto;
     width: 95%;
-    padding: 15px;
+    padding: 12px;
 }
 
 .audio {
