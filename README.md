@@ -31,6 +31,27 @@ Wireframes created using Balsamiq Wireframes
 
 [Click here to play!](https://www.example.com)
 
+## Testing
+## Automated Testing
+
+### Code Validation
+The [W3C Markup Validator](https://validator.w3.org/) service was used to validate the `HTML` and `CSS` code used.
+
+**Results:**
+
+- Home Page
+
+      ![Home Page HTML Validation Results](assets/images/html-validate.png)
+
+
+- CSS Code
+
+     ![CSS Code Page Validation Results](assets/images/css-validate.png)
+
+- Java Script
+
+     ![Java Script Validation Results](assets/images/js-validate.png)
+    
 
 ## Credits
 

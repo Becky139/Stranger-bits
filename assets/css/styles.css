@@ -1,224 +1,224 @@
 /*main styles*/
 
 html {
-    font-family: 'Press Start 2P', cursive;
+	font-family: 'Press Start 2P', cursive;
 }
 
 body {
-    background-image: url('../images/bg.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    box-sizing: border-box;
+	background-image: url('../images/bg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
 }
 
 h1,
 h2 {
-    color: white;
-    font-size: 1.5em;
+	color: white;
+	font-size: 1.5em;
 }
 
 p {
-    line-height: 1.5;
-    font-size: 1em;
+	line-height: 1.5;
+	font-size: 1em;
 }
 
 ul {
-    list-style: none;
+	list-style: none;
 }
 
 li {
-    padding: 5px;
+	padding: 5px;
 }
 
 
 /*styles for hidden overlays*/
 
 .incorrect {
-    width: 50%;
-    height: auto;
-    color: #fff;
-    background: #e74c3c;
-    position: absolute;
-    border-radius: 5px;
-    top: 25%;
-    left: 25%;
-    padding-bottom: 15px;
-    z-index: 1000;
-    display: none;
-    text-align: center;
-    vertical-align: middle;
+	width: 50%;
+	height: auto;
+	color: #fff;
+	background: #e74c3c;
+	position: absolute;
+	border-radius: 5px;
+	top: 25%;
+	left: 25%;
+	padding-bottom: 15px;
+	z-index: 1000;
+	display: none;
+	text-align: center;
+	vertical-align: middle;
 }
 
 .correct {
-    width: 50%;
-    height: auto;
-    color: #fff;
-    background: darkgreen;
-    position: absolute;
-    border-radius: 5px;
-    top: 25%;
-    left: 25%;
-    padding-bottom: 15px;
-    z-index: 1000;
-    display: none;
-    text-align: center;
-    vertical-align: middle;
+	width: 50%;
+	height: auto;
+	color: #fff;
+	background: darkgreen;
+	position: absolute;
+	border-radius: 5px;
+	top: 25%;
+	left: 25%;
+	padding-bottom: 15px;
+	z-index: 1000;
+	display: none;
+	text-align: center;
+	vertical-align: middle;
 }
 
 .hiscore {
-    width: 60%;
-    height: auto;
-    color: #00FF33;
-    background: black;
-    position: absolute;
-    border-radius: 5px;
-    top: 10%;
-    left: 20%;
-    margin: 0;
-    z-index: 1000;
-    display: none;
-    border: 5px solid red;
-    border-radius: 5px;
-    text-align: center;
+	width: 60%;
+	height: auto;
+	color: #00FF33;
+	background: black;
+	position: absolute;
+	border-radius: 5px;
+	top: 10%;
+	left: 20%;
+	margin: 0;
+	z-index: 1000;
+	display: none;
+	border: 5px solid red;
+	border-radius: 5px;
+	text-align: center;
 }
 
 
 /*class styles*/
 
 .new {
-    color: rgb(244, 241, 240);
-    font-size: 1em;
-    text-transform: capitalize;
+	color: rgb(244, 241, 240);
+	font-size: 1em;
+	text-transform: capitalize;
 }
 
 .top {
-    color: RED;
+	color: RED;
 }
 
 .score {
-    color: orangered;
+	color: orangered;
 }
 
 .submit {
-    font-size: 20px;
-    font-family: 'Press Start 2P', cursive;
-    color: red;
-    background: none;
-    border: none;
-    cursor: pointer;
+	font-size: 20px;
+	font-family: 'Press Start 2P', cursive;
+	color: red;
+	background: none;
+	border: none;
+	cursor: pointer;
 }
 
 .myimg {
-    width: 300px;
-    height: auto;
+	width: 300px;
+	height: auto;
 }
 
 .gameimage {
-    height: 30%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
+	height: 30%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
 }
 
 .invaders {
-    width: 200px;
-    height: 100px;
-    align-content: center;
+	width: 200px;
+	height: 100px;
+	align-content: center;
 }
 
 .questiontext,
 .instructions {
-    color: white;
-    text-align: center;
+	color: white;
+	text-align: center;
 }
 
 .radio {
-    width: 20px;
-    height: 20px;
+	width: 20px;
+	height: 20px;
 }
 
 .container {
-    margin: auto;
-    padding: 0px;
+	margin: auto;
+	padding: 0px;
 }
 
 .play {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .quiz_header {
-    width: 100%;
-    text-align: center;
+	width: 100%;
+	text-align: center;
 }
 
 .quizrow {
-    margin: auto;
-    width: 95%;
-    padding: 12px;
+	margin: auto;
+	width: 95%;
+	padding: 12px;
 }
 
 .audio {
-    clear: right;
+	clear: right;
 }
 
 .nav {
-    width: 100%;
-    text-align: center;
-    margin: 25px;
-    vertical-align: center;
+	width: 100%;
+	text-align: center;
+	margin: 25px;
+	vertical-align: center;
 }
 
 .left_score {
-    display: inline-block;
-    width: 15%;
-    margin-left: 25px;
-    font-size: 18px;
+	display: inline-block;
+	width: 15%;
+	margin-left: 25px;
+	font-size: 18px;
 }
 
 .middle_score {
-    display: inline-block;
-    width: 50%;
-    margin: 10px;
-    color: white;
+	display: inline-block;
+	width: 50%;
+	margin: 10px;
+	color: white;
 }
 
 .right_score {
-    display: inline-block;
-    width: 15%;
-    margin-right: 25px;
-    font-size: 18px;
+	display: inline-block;
+	width: 15%;
+	margin-right: 25px;
+	font-size: 18px;
 }
 
 .wrong {
-    color: red;
+	color: red;
 }
 
 .right {
-    color: lawngreen;
+	color: lawngreen;
 }
 
 .checkbox {
-    display: inline-block;
-    width: 5%;
+	display: inline-block;
+	width: 5%;
 }
 
 .answer {
-    display: inline-block;
-    width: 40%;
-    color: white;
+	display: inline-block;
+	width: 40%;
+	color: white;
 }
 
 .submitrow,
 .howtoplay {
-    text-align: center;
-    margin-top: 3rem;
+	text-align: center;
+	margin-top: 3rem;
 }
 
 #guess {
-    color: orange;
-    font-size: 48px;
-    text-decoration: none;
-    margin-top: 20px;
-    margin-bottom: 20px;
+	color: orange;
+	font-size: 48px;
+	text-decoration: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
