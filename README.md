@@ -5,12 +5,7 @@
 Always wanted to test your hand at 8-bit games and their music? Well now is your chance!. This game tests your 80's 8-bit game knowledge. Remember those great music tracks you loved from your early games, well now you can put your skills to the test!
 
 
-![Wireframes](assets/images/Wireframe%201.png)
-![](assets/images/Wireframe%202.png)
-![](assets/images/Wireframe%203.png)
-![](assets/images/Wireframe%204.png)
-![](assets/images/Wireframe%205.png)
-![](assets/images/Wireframe%206.png)
+![Wireframes]
 
 ## How to play
 
@@ -19,6 +14,19 @@ Always wanted to test your hand at 8-bit games and their music? Well now is your
 -Make your choices and compare your hi-scores with others!
 
 ## Setup
+
+## Wireframes
+
+Wireframes created using Balsamiq Wireframes
+
+<p float="left">
+  <img src="assets/images/Wireframe%201.png" width="150" />
+  <img src="assets/images/Wireframe%202.png" width="150" /> 
+  <img src="assets/images/Wireframe%203.png" width="150" />
+  <img src="assets/images/Wireframe%204.png" width="150" />
+  <img src="assets/images/Wireframe%205.png" width="150" /> 
+  <img src="assets/images/Wireframe%206.png" width="150" />
+</p>
 
 ### Deployed link
 
