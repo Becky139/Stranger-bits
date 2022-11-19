@@ -5,7 +5,12 @@
 Always wanted to test your hand at 8-bit games and their music? Well now is your chance!. This game tests your 80's 8-bit game knowledge. Remember those great music tracks you loved from your early games, well now you can put your skills to the test!
 
 
-![Wireframes]()
+![Wireframes](assets/images/Wireframe%201.png)
+![](assets/images/Wireframe%202.png)
+![](assets/images/Wireframe%203.png)
+![](assets/images/Wireframe%204.png)
+![](assets/images/Wireframe%205.png)
+![](assets/images/Wireframe%206.png)
 
 ## How to play
 
