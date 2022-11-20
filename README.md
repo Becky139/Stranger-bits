@@ -41,7 +41,7 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 - Home Page
 
-      ![Home Page HTML Validation Results](assets/images/html-validate.png)
+     ![HTML Validation Results](assets/images/html-validate.png)
 
 
 - CSS Code
