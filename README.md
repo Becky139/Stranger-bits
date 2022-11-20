@@ -41,7 +41,7 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 - Home Page
 
-      ![Home Page HTML Validation Results](assets/images/html-validate.png)
+     ![HTML Validation Results](assets/images/html-validate.png)
 
 
 - CSS Code
@@ -57,7 +57,7 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 * [Be sure to credit any assets that are not yours](https://www.example.com)
 * [Rebecca Marriott Linkedin](https://www.linkedin.com/in/rebecca-marriott-492571148/)
-* [Member 2 Linkedin](https://www.linkedin.com)
+* [Niklas Färeborg Linkedin](https://www.linkedin.com/in/niklas-f%C3%A4reborg-1bb353211/)
 * [Member 3 Linkedin](https://www.linkedin.com)
 * [Onuorah Joshua Nwani Linkedin](https://www.linkedin.com/in/onuorah-joshua-nwani-952a06211)
 * [etc. etc.](https://www.example.com)
