@@ -2,16 +2,36 @@
 
 ![Responsivenes](assets/images/resoponsive.png)
 
+## Project Overview
+
 Always wanted to test your hand at 8-bit games and their music? Well now is your chance!. This game tests your 80's 8-bit game knowledge. Remember those great music tracks you loved from your early games, well now you can put your skills to the test!
+
+## Player AC's
+
+1. As a player I should be greeted with a descrription of what the game is and what the game does.
+
+2. As a player I should have clearly defined instructions as to how to play the game before I start playing.
+
+3. As a Player I should be able to start the game using a dedicated game button.
+
+4. As a Player I should be able to clearly hear audio files and control the volume and playback.
+
+5. As a Player I should be able to select from a clearly defined list of answers.
+
+6. As a Player I should be able to change the option I have selected before submitting.
+
+7. As a Player I should be able to restart the quiz at any stage.
+
+8. As a Player I should be able to monitor my score throughout the quiz.
 
 
 ## How to play
 
--Head to each question, then click to play the music track.
+- Head to each question, then click to play the music track.
 
--Choose which 80's 8-bit game you think the music is from.
+- Choose which 80's 8-bit game you think the music is from.
 
--Make your choices and compare your hi-scores with others!
+- Make your choices and compare your hi-scores with others!
 
 
 ## Wireframes
@@ -68,7 +88,7 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
      ![Java Script Validation Results](assets/images/js-validate.png)
     
 
-## Credits
+## Acknowledgements/Credits
 
 * [Rebecca Marriott Linkedin](https://www.linkedin.com/in/rebecca-marriott-492571148/)
 * [Niklas Färeborg Linkedin](https://www.linkedin.com/in/niklas-f%C3%A4reborg-1bb353211/)
