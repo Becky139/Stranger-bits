@@ -1,4 +1,4 @@
-# 🎸 **Cassette Crusadars** 👽 
+# 🎸 **Cassette Crusaders project Stranger-bits** 👽 
 
 ![Responsivenes](assets/images/resoponsive.png)
 
@@ -18,18 +18,33 @@ Always wanted to test your hand at 8-bit games and their music? Well now is your
 
 Wireframes created using Balsamiq Wireframes
 
-<p float="left">
-  <img src="assets/images/Wireframe%201.png" width="150" />
-  <img src="assets/images/Wireframe%202.png" width="150" /> 
-  <img src="assets/images/Wireframe%203.png" width="150" />
-  <img src="assets/images/Wireframe%204.png" width="150" />
-  <img src="assets/images/Wireframe%205.png" width="150" /> 
-  <img src="assets/images/Wireframe%206.png" width="150" />
-</p>
+![Stranger bits landing page, how to play](assets/images/Wireframe%201.png)
+
+Landing Page with How to Play instructions
+
+![Main Quiz screen](assets/images/Wireframe%202.png)
+
+Main quiz screen with multiple choice thumbnails
+
+![Answer Selection](assets/images/Wireframe%203.png)
+
+Answer selection for thumbnails
+
+![Modal for correct answer](assets/images/Wireframe%204.png)
+
+Modal showing correct answer
+
+![Modal for incorrect answer](assets/images/Wireframe%205.png)
+
+Modal showing incorrect answer
+
+![End of game screen](assets/images/Wireframe%206.png)
+
+Game over screen
 
 ### Deployed link
 
-[Click here to play!](https://www.example.com)
+[Click here to play!](https://becky139.github.io/Hack-hero/)
 
 ## Testing
 ## Automated Testing
@@ -55,9 +70,10 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 
 ## Credits
 
-* [Be sure to credit any assets that are not yours](https://www.example.com)
 * [Rebecca Marriott Linkedin](https://www.linkedin.com/in/rebecca-marriott-492571148/)
 * [Niklas Färeborg Linkedin](https://www.linkedin.com/in/niklas-f%C3%A4reborg-1bb353211/)
-* [Member 3 Linkedin](https://www.linkedin.com)
+* [Dean Fay Linkedin](https://www.linkedin.com/in/dean-fay/)
 * [Onuorah Joshua Nwani Linkedin](https://www.linkedin.com/in/onuorah-joshua-nwani-952a06211)
-* [etc. etc.](https://www.example.com)
+
+Images taken from graphicriver.net
+Audio downloaded from their respective game trailers on YouTube
